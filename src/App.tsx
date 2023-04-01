@@ -13,8 +13,6 @@ import * as objects from './data/objects'
 import * as symbols from './data/symbols'
 import * as flags from './data/flags'
 
-console.log(symbols)
-
 const emojiGroups: {
   groupName: string
   emojis: { emoji: string; name: string }[]
@@ -62,3 +60,7 @@ function getEmojiGroups(groups: any) {
     emojis: getEmojis(groups[k]),
   }))
 }
+
+// https://unicode.org/emoji/charts/full-emoji-list.html
+// https://www.emojicopy.com/
+// https://www.emojiall.com/zh-hans

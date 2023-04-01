@@ -8,7 +8,7 @@ export const EmojiGroupUI = styled.section`
   }
   > .content {
     display: grid;
-    grid-template-columns: repeat(26, 1fr);
+    grid-template-columns: repeat(22, 1fr);
   }
 `
 
@@ -20,16 +20,19 @@ const EmojiUI = styled.div`
 
   &:hover {
     background: #f5f5f5;
-  }
-  > .emoji {
-    font-size: 20px;
-
-    &:hover {
+    > .emoji {
       transform: scale(1.6);
       transition: all 0.2s;
-      display: inline-block;
-      text-align: center;
     }
+  }
+  > .emoji {
+    font-size: 40px;
+    line-height: 1;
+    display: inline-block;
+    width: 50px;
+    height: 48px;
+    text-align: center;
+    overflow: hidden;
   }
   > .copied {
     position: absolute;
