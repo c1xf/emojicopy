@@ -1,6 +1,0 @@
-const fs = require('fs')
-const path = require('path')
-const epath = path.relative(__dirname, 'emoji-test.txt')
-console.log(epath)
-const emojiText = fs.readFileSync(epath).toString('UTF8')
-console.log(emojiText)
