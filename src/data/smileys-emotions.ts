@@ -1,4 +1,4 @@
-export default `1F600                                                  ; fully-qualified     # 😀 E1.0 grinning face
+export const faceSmiling = `1F600                                                  ; fully-qualified     # 😀 E1.0 grinning face
 1F603                                                  ; fully-qualified     # 😃 E0.6 grinning face with big eyes
 1F604                                                  ; fully-qualified     # 😄 E0.6 grinning face with smiling eyes
 1F601                                                  ; fully-qualified     # 😁 E0.6 beaming face with smiling eyes
