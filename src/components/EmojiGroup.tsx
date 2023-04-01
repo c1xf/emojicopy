@@ -13,15 +13,23 @@ export const EmojiGroupUI = styled.section`
 `
 
 const EmojiUI = styled.div`
+  text-align: center;
   cursor: pointer;
   position: relative;
-  padding: 0 4px 20px 4px;
+  padding: 4px 4px 20px 4px;
 
   &:hover {
     background: #f5f5f5;
   }
   > .emoji {
-    font-size: 36px;
+    font-size: 20px;
+
+    &:hover {
+      transform: scale(1.6);
+      transition: all 0.2s;
+      display: inline-block;
+      text-align: center;
+    }
   }
   > .copied {
     position: absolute;
